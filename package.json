@@ -1,0 +1,12 @@
+{
+  "name": "candidate-assignment-tools",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Локальные инструменты рабочего процесса тестового задания",
+  "engines": { "node": ">=24 <25" },
+  "scripts": {
+    "orchestration": "node .agents/skills/orchestration/scripts/cli.mjs",
+    "test:orchestration": "node --test .agents/skills/orchestration/tests/*.test.mjs"
+  }
+}

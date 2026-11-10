@@ -1,0 +1,16 @@
+# Лимит чтения проектных инструкций: AGENTS.md должен помещаться целиком.
+project_doc_max_bytes = 262144
+
+[agents]
+enabled = true
+max_concurrent_threads_per_session = 3
+
+# Штатные показатели Codex: модель, использованный контекст и остаток недельного лимита.
+[tui]
+status_line = [
+  "model-with-reasoning",
+  "context-used",
+  "weekly-limit",
+  "current-dir",
+]
+status_line_use_colors = true

@@ -1,0 +1,4 @@
+interface:
+  display_name: 'Visual Design'
+  short_description: 'Дизайн интерфейсов: композиция, типографика и детали'
+  default_prompt: 'Используй $visual-design для интерфейса по задаче и референсам с необходимыми проверками.'

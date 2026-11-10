@@ -1,0 +1,28 @@
+{
+  "version": 3,
+  "limits": { "maxConcurrentAstra": 1 },
+  "profiles": {
+    "scan": { "model": "gpt-6-luna", "effort": "high", "rank": 10 },
+    "scan-xhigh": { "model": "gpt-6-luna", "effort": "xhigh", "rank": 11 },
+    "scan-max": { "model": "gpt-6-luna", "effort": "max", "rank": 12 },
+    "standard": { "model": "gpt-6.1-sol", "effort": "medium", "rank": 20 },
+    "critical": { "model": "gpt-6.1-sol", "effort": "high", "rank": 30 },
+    "advanced": { "model": "gpt-6.1-sol", "effort": "xhigh", "rank": 31 },
+    "intensive": { "model": "gpt-6.1-sol", "effort": "max", "rank": 32 },
+    "parallel": {
+      "model": "gpt-6.1-sol",
+      "effort": "ultra",
+      "rank": 33,
+      "scope": "coordinator"
+    },
+    "architect": { "model": "gpt-6-astra", "effort": "high", "rank": 40 }
+  },
+  "skills": {
+    "orchestration": "orchestration/SKILL.md",
+    "product-planning": "product-planning/SKILL.md",
+    "product-marketing": "product-marketing/SKILL.md",
+    "visual-design": "visual-design/SKILL.md",
+    "tdd": "tdd/SKILL.md",
+    "code-simplifier": "code-simplifier/SKILL.md"
+  }
+}

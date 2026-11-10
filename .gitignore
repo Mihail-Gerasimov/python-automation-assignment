@@ -1,0 +1,19 @@
+# Локальные окружения, зависимости и кэши.
+.venv/
+.tools/
+.cache/
+node_modules/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.DS_Store
+
+# Локальные очереди, временные файлы и возможные секреты.
+.codex/orchestration/
+.codex/tmp/
+.env
+.env.*
+!.env.example
+
+# Итоговые книги, исходники и отчёты проверок намеренно не исключены.
